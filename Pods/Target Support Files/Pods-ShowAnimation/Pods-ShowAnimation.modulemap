@@ -1,0 +1,6 @@
+framework module Pods_ShowAnimation {
+  umbrella header "Pods-ShowAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

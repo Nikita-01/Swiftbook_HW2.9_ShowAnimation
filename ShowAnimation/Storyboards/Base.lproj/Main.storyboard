@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="szJ-Al-WEr">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="szJ-Al-WEr" customClass="SpringView" customModule="Spring">
                                 <rect key="frame" x="87" y="124" width="240" height="191"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="xhu-zk-QUv">
@@ -67,7 +67,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihZ-7I-rKP">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihZ-7I-rKP" customClass="SpringButton" customModule="Spring">
                                 <rect key="frame" x="107" y="752.5" width="200" height="31"/>
                                 <color key="backgroundColor" systemColor="linkColor"/>
                                 <constraints>
@@ -98,13 +98,12 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="animatedView" destination="szJ-Al-WEr" id="1ZJ-ZV-NSC"/>
+                        <outlet property="animatedView" destination="szJ-Al-WEr" id="9VD-YI-tSn"/>
                         <outlet property="curveLabel" destination="gQ3-qa-rO8" id="DMA-Zs-FTd"/>
                         <outlet property="delayLabel" destination="ToL-eh-tGp" id="EXK-Pr-AqZ"/>
                         <outlet property="durationLabel" destination="Nsq-qv-Apc" id="nqd-4N-vgo"/>
                         <outlet property="forceLabel" destination="4Pa-BC-Xql" id="Yvg-dq-d9w"/>
                         <outlet property="presetLabel" destination="dbe-DU-Ges" id="Q7E-GG-7hS"/>
-                        <outlet property="runAnimationButton" destination="ihZ-7I-rKP" id="bcT-Z7-lXF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

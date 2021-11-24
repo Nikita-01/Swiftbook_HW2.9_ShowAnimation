@@ -8,9 +8,9 @@
 import Foundation
 
 struct Animation {
-    let preset: String
-    let curve: String
-    let force: Double
-    let duration: Double
-    let delay: Double
+    var preset: String
+    var curve: String
+    var force: Double
+    var duration: Double
+    var delay: Double
 }

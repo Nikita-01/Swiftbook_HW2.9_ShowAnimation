@@ -52,6 +52,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6B35171B274EBA740024D59F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6BAA4F13274E291900B5394C /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6B35171C274EBA820024D59F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B469329274E1ABE0030ECC7 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6B35171D274EBAAE0024D59F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6B46932B274E1ABE0030ECC7 /* Main.storyboard */,
+				6B469330274E1ABF0030ECC7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		6B469319274E1ABE0030ECC7 = {
 			isa = PBXGroup;
 			children = (
@@ -75,11 +100,10 @@
 			children = (
 				6B469325274E1ABE0030ECC7 /* AppDelegate.swift */,
 				6B469327274E1ABE0030ECC7 /* SceneDelegate.swift */,
-				6B469329274E1ABE0030ECC7 /* ViewController.swift */,
-				6B46932B274E1ABE0030ECC7 /* Main.storyboard */,
-				6BAA4F13274E291900B5394C /* Model.swift */,
+				6B35171C274EBA820024D59F /* ViewControllers */,
+				6B35171D274EBAAE0024D59F /* Storyboards */,
+				6B35171B274EBA740024D59F /* Models */,
 				6B46932E274E1ABF0030ECC7 /* Assets.xcassets */,
-				6B469330274E1ABF0030ECC7 /* LaunchScreen.storyboard */,
 				6B469333274E1ABF0030ECC7 /* Info.plist */,
 			);
 			path = ShowAnimation;
